@@ -1,0 +1,62 @@
+[WARNING] ME(4030:140551500849664,MainProcess):2021-10-20-10:16:58.828.653 [mindspore/ops/primitive.py:178] The shard strategy ((1, 1), (2, 1)) of MatMul is not valid in data_parallel. Please use semi auto or auto parallel mode.
+[WARNING] ME(4030:140551500849664,MainProcess):2021-10-20-10:16:58.829.830 [mindspore/ops/primitive.py:178] The shard strategy ((1, 2), (), ()) of OneHot is not valid in data_parallel. Please use semi auto or auto parallel mode.
+[WARNING] ME(4030:140551500849664,MainProcess):2021-10-20-10:16:58.831.422 [mindspore/ops/primitive.py:178] The shard strategy ((1, 2), (), ()) of OneHot is not valid in data_parallel. Please use semi auto or auto parallel mode.
+[WARNING] PRE_ACT(4030,7fd4b247e200,python):2021-10-20-10:17:24.338.237 [mindspore/ccsrc/backend/optimizer/common/helper.cc:235] CreateTupleTensor] The value 0x5569e3016570of tuple is not a scalar
+[WARNING] PRE_ACT(4030,7fd4b247e200,python):2021-10-20-10:17:24.338.273 [mindspore/ccsrc/backend/optimizer/pass/convert_const_input_to_tensor_input.cc:46] CreateTensorInput] Create tensor failed
+[WARNING] MD(4030,7fd1f97d6700,python):2021-10-20-10:20:32.592.845 [mindspore/ccsrc/minddata/dataset/engine/datasetops/device_queue_op.cc:716] DetectPerBatchTime] Bad performance attention, it takes more than 25 seconds to fetch and send a batch of data into device, which might result `GetNext` timeout problem. You may test dataset processing performance and optimize it or check whether sending data part is blocked as queue is full.
+Level 31:root:epoch: 1 step: 9308 loss: [1.5128626]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 2 step: 18616 loss: [1.3036631]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 3 step: 27924 loss: [2.005425]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 4 step: 37232 loss: [1.2932322]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 5 step: 46540 loss: [1.7868643]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 6 step: 55848 loss: [0.89755446]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 7 step: 65156 loss: [3.09981]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 8 step: 74464 loss: [1.3168488]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 9 step: 83772 loss: [2.168445]
+Level 31:root:lr: 0.04
+Level 31:root:epoch: 10 step: 93080 loss: [0.87262475]
+Level 31:root:lr: 0.04
+Level 31:root:At step 93080, learning_rate change to 0.004
+Level 31:root:epoch: 11 step: 102388 loss: [0.49504116]
+Level 31:root:lr: 0.004
+Level 31:root:epoch: 12 step: 111696 loss: [0.4573904]
+Level 31:root:lr: 0.004
+Level 31:root:epoch: 13 step: 121004 loss: [0.5201022]
+Level 31:root:lr: 0.004
+Level 31:root:epoch: 14 step: 130312 loss: [0.00062391]
+Level 31:root:lr: 0.004
+Level 31:root:epoch: 15 step: 139620 loss: [0.00887144]
+Level 31:root:lr: 0.004
+Level 31:root:epoch: 16 step: 148928 loss: [0.54810345]
+Level 31:root:lr: 0.004
+Level 31:root:At step 148928, learning_rate change to 0.0004
+Level 31:root:epoch: 17 step: 158236 loss: [0.00520294]
+Level 31:root:lr: 0.0004
+Level 31:root:epoch: 18 step: 167544 loss: [0.08344573]
+Level 31:root:lr: 0.0004
+Level 31:root:epoch: 19 step: 176852 loss: [0.1448321]
+Level 31:root:lr: 0.0004
+Level 31:root:epoch: 20 step: 186160 loss: [0.5750924]
+Level 31:root:lr: 0.0004
+Level 31:root:epoch: 21 step: 195468 loss: [0.11918819]
+Level 31:root:lr: 0.0004
+Level 31:root:At step 195468, learning_rate change to 4e-05
+Level 31:root:epoch: 22 step: 204776 loss: [0.0007903]
+Level 31:root:lr: 4e-05
+Level 31:root:epoch: 23 step: 214084 loss: [0.00160724]
+Level 31:root:lr: 4e-05
+Level 31:root:epoch: 24 step: 223392 loss: [0.00069491]
+Level 31:root:lr: 4e-05
+Level 31:root:epoch: 25 step: 232700 loss: [0.0005948]
+Level 31:root:lr: 4e-05
+1
+[WARNING] PIPELINE(4030,7fd4b247e200,python):2021-10-22-09:23:21.753.856 [mindspore/ccsrc/pipeline/jit/init.cc:310] operator()] Start releasing dataset handles...
+[WARNING] PIPELINE(4030,7fd4b247e200,python):2021-10-22-09:23:21.753.934 [mindspore/ccsrc/pipeline/jit/init.cc:313] operator()] End release dataset handles.
