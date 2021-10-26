@@ -28,6 +28,7 @@
   ```
 ### 5. 模型评测
   模型文件保存在backup文件夹下，需要将多个文件解压成一个ckpt文件。解压命令为`unrar x ckpt.part1.rar `
+  
   运行`python inferece_all.py`对每一类数据图片进行特征向量提取，每张图提取出512维的特征向量。求取每类的平均值，作为该类的中心向量。并将结果保存在json文件中。（注意在第52行修改json文件保存的路径；在41行修改模型路径）
   
   ![image](https://user-images.githubusercontent.com/36214675/138816410-f5df5b56-e2f2-4586-a96c-a3163f535afd.png)
